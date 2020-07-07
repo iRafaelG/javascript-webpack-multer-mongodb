@@ -1,7 +1,7 @@
 class CarService {
 
     constructor() {
-        this.URI = 'http://localhost:4000/api/cars';
+        this.URI = '/api/cars';
     }
 
     async getCars() {
