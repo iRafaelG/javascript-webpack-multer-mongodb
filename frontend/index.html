@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Listing</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark header">
+        <div class="container">
+            <a href="/" class="navbar-brand">Car Listing App</a>
+        </div>
+    </nav>
+    <div class="container p-4 main">
+        <div class="row">
+            <div class="col-md-5">
+                <form id="car-form" class="card card-body mb-3">
+                    <div class="form-group">
+                        <input type="text" id="marca" placeholder="Marca" class="form-control" autofocus>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="modelo" placeholder="Modelo" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="matricula" placeholder="Matricula" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <div class="custom-file">
+                            <input type="file" id="foto" class="custom-file-input">
+                            <label for="foto" class="custom-file-label">Elegir imagen</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary btn-block">Guardar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-7" id="cars-container"></div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Made with ❤ from Spain by Rafael G.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+</body>
+
+</html>
