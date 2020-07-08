@@ -27,7 +27,7 @@ router.route('/cars')
         await newCar.save();
         res.json({
             "message": "Car saved successfully!"
-        })
+        });
     });
 
 router.route('/cars/:id')

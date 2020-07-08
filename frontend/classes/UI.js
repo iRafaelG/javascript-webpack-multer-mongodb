@@ -1,7 +1,7 @@
 // import node modules
 const { format } = require('timeago.js');
 
-// import classes
+// import services
 const CarService = require('../services/car.service');
 
 // initializations

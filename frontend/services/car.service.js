@@ -10,10 +10,10 @@ class CarService {
         return coches;
     }
 
-    async postCar(coches) {
+    async postCar(coche) {
         let response = await fetch(this.URI, {
             method: 'post',
-            body: coches
+            body: coche
         });
         let data = response.json();
         return data;

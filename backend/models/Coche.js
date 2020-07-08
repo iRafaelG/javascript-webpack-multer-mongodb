@@ -8,6 +8,6 @@ const CocheSchema = new Schema({
     matricula: { type: String, required: true },
     foto: { type: String, required: false },
     createdAt: { type: Date, default: Date.now }
-})
+});
 
 module.exports = model('CocheModel', CocheSchema);
